@@ -65,6 +65,8 @@ RCT_EXPORT_METHOD(startWithOptions:(NSDictionary *_Nonnull)options
     }
     [SentrySDK startWithOptionsObject:sentryOptions];
 
+    /* (FLIRC) These lines are intentionally commented-out
+    
     // If the app is active/in foreground, and we have not sent the SentryHybridSdkDidBecomeActive notification, send it.
     if ([[UIApplication sharedApplication] applicationState] == UIApplicationStateActive && !sentHybridSdkDidBecomeActive && sentryOptions.enableAutoSessionTracking) {
         [[NSNotificationCenter defaultCenter]
@@ -73,6 +75,7 @@ RCT_EXPORT_METHOD(startWithOptions:(NSDictionary *_Nonnull)options
 
         sentHybridSdkDidBecomeActive = true;
     }
+    */
 
     resolve(@YES);
 }
