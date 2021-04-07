@@ -18,7 +18,7 @@
     "lint": "eslint .",
     "test:watch": "jest --watch",
     "run-ios": "cd sample && yarn react-native run-ios",
-    "run-android": "cd sample && yarn react-native run-android",
+    "run-android": "cd sample && yarn react-native run-android"
   },
   "keywords": [
     "react-native",
