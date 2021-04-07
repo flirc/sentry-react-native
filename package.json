@@ -7,9 +7,9 @@
   "typings": "dist/js/index.d.ts",
   "types": "dist/js/index.d.ts",
   "typescript": {
-    "definition": "dist/js/index.d.ts"
+    "definition": "dist2/js/index.d.ts"
   },
-  "main": "dist/js/index.js",
+  "main": "dist2/js/index.js",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
