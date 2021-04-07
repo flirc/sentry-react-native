@@ -19,7 +19,6 @@
     "test:watch": "jest --watch",
     "run-ios": "cd sample && yarn react-native run-ios",
     "run-android": "cd sample && yarn react-native run-android",
-    "postinstall": "tsc -p tsconfig.build.json"
   },
   "keywords": [
     "react-native",
