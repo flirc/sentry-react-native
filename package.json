@@ -3,7 +3,7 @@
   "homepage": "https://github.com/getsentry/sentry-react-native",
   "repository": "https://github.com/getsentry/sentry-react-native",
   "version": "2.4.0",
-  "description": "Official Sentry SDK for react-native",
+  "description": "Official Sentry SDK for react-native :: clone for RN-windows",
   "typings": "dist/js/index.d.ts",
   "types": "dist/js/index.d.ts",
   "typescript": {
