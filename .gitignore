@@ -10,7 +10,7 @@ node_modules
 ## Build generated
 build/
 DerivedData
-dist
+# dist
 coverage
 
 ## Various settings
